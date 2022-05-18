@@ -6,6 +6,7 @@
                 text-decoration: none;  /* 移除超連結底線 */
                 font-size: 1.2rem; 
                 padding: 10px; /* 調整間距 */
+                font-weight: bold
                                        }
 
             nav > ul {
@@ -17,7 +18,7 @@
                 display: flex;
                 justify-content: space-evenly;
             }
-            nav li:hover { /* 滑鼠移到 <a> 時變成深底淺色 */
+            .nav-link:hover { /* 滑鼠移到 <a> 時變成深底淺色 */
                 background-color: rgb(115, 115, 115);
                  color: white;
                  
@@ -25,9 +26,17 @@
            
             nav   a  {container-fluid}
 
+            /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+            .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+
             p {
                 line-height: 1.5;
                 text-indent: 36px;
+                margin-left: 15px;
                 
                 ;            }
             .video{
