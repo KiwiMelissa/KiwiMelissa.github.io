@@ -27,13 +27,14 @@
             nav   a  {container-fluid}
 
             /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+            
             .sticky {
                 position: fixed;
                 top: 0;
                 width: 100%;
             }
 
-            p {
+            p h3 h2 h1 {
                 line-height: 1.5;
                 text-indent: 36px;
                 margin-left: 15px;
