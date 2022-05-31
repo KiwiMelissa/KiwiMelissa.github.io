@@ -1,5 +1,5 @@
 
-            * {padding: 100;margin: 100;}
+            * {padding: 5px;margin: 5px;}
             
             nav   a  {
                 color: inherit; /* 移除超連結顏色 */
@@ -66,7 +66,7 @@
                 
             }
             .video{
-                   align-items: center ;
+                   margin: auto ;
                                       }
 
             
