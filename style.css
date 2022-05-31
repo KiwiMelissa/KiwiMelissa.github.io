@@ -1,4 +1,6 @@
 
+            * {padding: 100;margin: 100;}
+            
             nav   a  {
                 color: inherit; /* 移除超連結顏色 */
                 display: block; /* 讓 <a> 填滿 <li> */
@@ -45,20 +47,29 @@
                 color: #9899a6;
                 text-decoration: none;
                 font-weight:bold;
-                
-               
-               
+            }
+
+            h2{
+                line-height: 1.5;
+                margin-left: 30px;
+            }
+
+            h3{
+                line-height: 1.5;
+                margin-left: 30px;
             }
            
-            p  {
+            p img {
                 line-height: 1.5;
                 text-indent: 36px;
-                margin-left: 15px;
+                margin-left: 30px;
                 
-                ;            }
+            }
             .video{
                    align-items: center ;
                                       }
+
+            
 
             table{
                     margin-left:auto; 
