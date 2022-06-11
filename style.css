@@ -1,23 +1,33 @@
 
-            * {padding: 5px;margin: 5px;}
-            
-            nav   a  {
+           nav {
+            background:black;
+            top:0;
+            width: 100%;
+            transition:all 0.5s;
+            position: relative;
+            z-index: 1;
+          }
+           
+           nav   a  {
                 color: inherit; /* 移除超連結顏色 */
                 display: block; /* 讓 <a> 填滿 <li> */
                 text-decoration: none;  /* 移除超連結底線 */
                 font-size: 1.2rem; 
                 padding: 10px; /* 調整間距 */
-                font-weight: bold
-                                       }
+                font-weight: bold 
+                
+                  }
 
             nav > ul {
                 list-style: none;   /* 移除項目符號 */
-                background-color: rgb(230, 230, 230);
+                background-color: rgb(230, 230, 230)
                 list-style: none;   /* 移除項目符號 */
                 margin: 0;
                 padding: 0;
                 display: flex;
                 justify-content: space-evenly;
+                background-color:black;
+                
             }
             .nav-link:hover { /* 滑鼠移到 <a> 時變成深底淺色 */
                 background-color: rgb(115, 115, 115);
@@ -25,22 +35,12 @@
                  
             }
            
-            nav   a  {container-fluid}
+      
 
-            /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-            
-            .sticky {
-                position: fixed;
-                top: 0;
-                width: 100%;
-            }
-
-            
             a {
                 color:#ae8799;
                 text-decoration: none;
                 font-weight:bold;
-                
             }
 
             a:hover{
@@ -50,6 +50,7 @@
             }
 
             h2{
+                
                 line-height: 1.5;
                 margin-left: 30px;
             }
@@ -59,17 +60,33 @@
                 margin-left: 30px;
             }
            
-            p img {
+            p {
                 line-height: 1.5;
                 text-indent: 36px;
                 margin-left: 30px;
-                
+                margin-right: 30px;
+                text-align: justify;
+                text-justify:inter-ideograph;
             }
+
+            img {
+                line-height: 1.5;
+                text-indent: 36px;
+                margin-left: 30px;
+                margin-right: 30px;
+                text-align: justify;
+                text-justify:inter-ideograph;
+            }
+            
+
             .video{
-                   margin: auto ;
+                display: flex;
+                margin: auto ;
+                justify-content：center； 　/*主軸對齊方式：居中*/
+                align-items:center；
                                       }
 
-            
+
 
             table{
                     margin-left:auto; 
