@@ -1,4 +1,27 @@
 
+           body{
+            height: 5000px;
+        }
+
+        $(function(){
+  
+            $(window).scroll(function(){
+              //var $(window).scrollTop(); 為 scroll
+              var scroll = $(window).scrollTop();
+              //當卷軸超過70px，自動加上 .navbar-fixed-top ，如果小於就移除
+              if( scroll >= 70){
+                
+                $(".navbar-scroll").addClass("navbar-fixed-top");
+                
+              }else{
+                
+                $(".navbar-scroll").removeClass("navbar-fixed-top")
+                
+              }
+              
+            });
+          
+          })
            nav {
             background:black;
             top:0;
@@ -78,7 +101,7 @@
                 text-justify:inter-ideograph;
             }
             
-
+            
             .video{
                 display: flex;
                 margin: auto ;
